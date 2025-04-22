@@ -40,7 +40,7 @@ const routes = [
     component: () => import('../views/LoginView.vue'),
   },
   {
-    path: '/users',
+    path: '/user',
     name: 'AddUsers',
     component: () => import('../views/RegistrationView.vue'),
   },
